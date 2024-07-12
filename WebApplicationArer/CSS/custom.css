@@ -1,0 +1,15 @@
+﻿@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/poppins-bold.ttf') format('truetype');
+}
+
+body{
+    font-family:poppins-bold;
+}
+
+.custom-file-input:focus {
+    border-color: #f87c1d;
+    box-shadow: 0 0 0 0.25rem rgba(248, 124, 29, 0.25);
+    font-weight:lighter;
+    font-size:1px;
+}

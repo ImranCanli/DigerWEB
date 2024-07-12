@@ -1,0 +1,37 @@
+﻿.toggle-btn {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    background: #ddd;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+    .toggle-btn.active {
+        background: #f87c1d;
+
+    }
+
+    .toggle-btn .icon1 {
+        position: absolute;
+        height: 17px;
+        width: 17px;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 14px;
+        color: #999;
+    }
+
+    .toggle-btn.active .icon1 {
+        left: calc(100% - 10px - 10px);
+        color: #f87c1d;
+    }
